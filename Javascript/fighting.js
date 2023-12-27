@@ -21,7 +21,7 @@ const shop = new Sprite({
         x: 600,
         y: 185
     },
-    imageSrc: "/photos/shop_anim.png",
+    imageSrc: "./photos/shop_anim.png",
     scale: 2.75,
     framesMax: 6
 })
@@ -37,7 +37,7 @@ const player = new Fighter({
         x:0,
         y:0
     },
-    imageSrc: "/photos/Martial Hero/Sprites/Idle.png",
+    imageSrc: "./photos/Martial Hero/Sprites/Idle.png",
     framesMax: 8,
     scale: 2.5,
     offset:{
@@ -46,31 +46,31 @@ const player = new Fighter({
     },
     sprites:{
         idle:{
-            imageSrc: "/photos/Martial Hero/Sprites/Idle.png",
+            imageSrc: "./photos/Martial Hero/Sprites/Idle.png",
             framesMax: 8
         },
         run:{
-            imageSrc: "/photos/Martial Hero/Sprites/Run.png",
+            imageSrc: "./photos/Martial Hero/Sprites/Run.png",
             framesMax: 8,
         },
         runBackwards:{
-            imageSrc: "/Photos/Martial Hero/Sprites/runBackwards.png",
+            imageSrc: "./photos/Martial Hero/Sprites/runBackwards.png",
             framesMax: 8
         },
         jump:{
-            imageSrc: "/photos/Martial Hero/Sprites/Jump.png",
+            imageSrc: "./photos/Martial Hero/Sprites/Jump.png",
             framesMax: 2
         },
         fall:{
-            imageSrc: "/photos/Martial Hero/Sprites/Fall.png",
+            imageSrc: "./photos/Martial Hero/Sprites/Fall.png",
             framesMax: 2
         }, 
         attack1:{
-            imageSrc: "/photos/Martial Hero/Sprites/Attack1.png",
+            imageSrc: "./photos/Martial Hero/Sprites/Attack1.png",
             framesMax: 6
         },
         backAttack:{
-            imageSrc: "/photos/Martial Hero/Sprites/backAttack.png",
+            imageSrc: "./photos/Martial Hero/Sprites/backAttack.png",
             framesMax: 6 
         }
     },
@@ -97,7 +97,7 @@ const enemy = new Fighter({
         x:-50,
         y:0
     },
-    imageSrc: "/photos/Martial Hero 2/Sprites/Idle.png",
+    imageSrc: "./photos/Martial Hero 2/Sprites/Idle.png",
     framesMax: 4,
     scale: 2.5,
     offset:{
@@ -106,31 +106,31 @@ const enemy = new Fighter({
     },
     sprites:{
         idle:{
-            imageSrc: "/photos/Martial Hero 2/Sprites/Idle.png",
+            imageSrc: "./photos/Martial Hero 2/Sprites/Idle.png",
             framesMax: 4
         },
         run:{
-            imageSrc: "/photos/Martial Hero 2/Sprites/Run.png",
+            imageSrc: "./photos/Martial Hero 2/Sprites/Run.png",
             framesMax: 8
         },
         runBackwards:{
-            imageSrc: "/Photos/Martial Hero 2/Sprites/runBackwards.png",
+            imageSrc: "./photos/Martial Hero 2/Sprites/runBackwards.png",
             framesMax: 8
         },
         jump:{
-            imageSrc: "/photos/Martial Hero 2/Sprites/Jump.png",
+            imageSrc: "./photos/Martial Hero 2/Sprites/Jump.png",
             framesMax: 2
         },
         fall:{
-            imageSrc: "/photos/Martial Hero 2/Sprites/Fall.png",
+            imageSrc: "./photos/Martial Hero 2/Sprites/Fall.png",
             framesMax: 2
         }, 
         attack1:{
-            imageSrc: "/photos/Martial Hero 2/Sprites/Attack1.png",
+            imageSrc: "./photos/Martial Hero 2/Sprites/Attack1.png",
             framesMax: 4
         },
         backAttack:{
-            imageSrc: "/photos/Martial Hero 2/Sprites/backAttack.png",
+            imageSrc: "./photos/Martial Hero 2/Sprites/backAttack.png",
             framesMax: 4 
         }
     },

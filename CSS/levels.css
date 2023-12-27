@@ -1,0 +1,14 @@
+h2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    color: white;
+    padding-top: 300px;
+}
+
+a[href]{
+    color: rgb(218, 214, 221);
+}
